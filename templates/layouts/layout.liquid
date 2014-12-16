@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <!-- Title block allowing child pages to override -->
-        <title>{% block hello %}Hello{% endblock %}</title>
+        <title>{% block title %}Hello{% endblock %}</title>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
         <!-- Styles -->
         {{ "app.css" | asset_url | stylesheet_tag }}
