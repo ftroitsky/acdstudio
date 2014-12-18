@@ -1,0 +1,43 @@
+{% block title %}
+монобрендовый шоурум BESANA
+{% endblock %}
+
+{% block content %}
+<div id="container">    <header>
+    <!--#include file="super-menu.html" -->
+</header>
+    <div id="main" role="main">
+        <div class="dlblock">
+            <div id="lab">
+                <h1>монобрендовый <br>
+                    шоурум BESANA</h1>
+                <p><span class="area">300м²</span><span class="adress">Ланское шоссе, 14, Санкт-Петербург. </span><span class="state">Проект и реализация</span>
+                </p>
+                <p><span>Архитектор:</span> <span class="acd-name">Николай Лим</span></p>
+            </div>
+        </div>
+        <div class="lblock"><img src="{{ "besana/crop_main_940w.jpg" | asset_url }}" width="940" height="562" /></div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "besana/crop2-1_320x260.jpg" | asset_url }}" width="260" height="320" /></div>
+            <div class="lblock"><img src="{{ "besana/crop2-2_320x260.jpg" | asset_url }}" width="265" height="320" /></div>
+            <div class="lblock"><img src="{{ "besana/crop2-3_320x257.jpg" | asset_url }}" width="257" height="320" /></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "besana/crop3-1_240x190.jpg" | asset_url }}" width="190" height="240" /></div>
+            <div class="lblock"><img src="{{ "besana/crop3-2_240x190.jpg" | asset_url }}" width="190" height="240" /></div>
+            <div class="lblock"><img src="{{ "besana/crop3-3_240x200.jpg" | asset_url }}" width="200" height="240" /></div>
+            <div class="lblock"><img src="{{ "besana/crop3-4_240x190.jpg" | asset_url }}" width="190" height="240" /></div>
+        </div>
+        <div class="lblock"><img src="{{ "besana/crop4_1_360x580.jpg" | asset_url }}" width="580" height="360" /></div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "besana/crop5-1_240x213.jpg" | asset_url }}" width="210" height="240" /></div>
+            <div class="lblock"><img src="{{ "besana/crop5-2_240x213.jpg" | asset_url }}" width="213" height="240" /></div>
+            <div class="lblock"><img src="{{ "besana/crop5-3_240x219.jpg" | asset_url }}" width="219" height="240" /></div>
+            <div class="lblock"><img src="{{ "besana/crop5-4_240x130.jpg" | asset_url }}" width="130" height="240" /></div>
+        </div>
+
+    </div>    <footer>
+        <!--#include file="footer.html" -->
+    </footer>
+</div> <!--! end of #container -->
+{% endblock %}
