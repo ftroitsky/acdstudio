@@ -10,12 +10,12 @@
         </div>
         <div id="menu-menu">
             <ul class="clearfix">
-                <li><a href="about-studio.shtml">О студии</a></li>
-                <li><a href="architecture/architecture-index.shtml">Архитектурное проектирование</a></li>
-                <li><a href="design/design-index.shtml">Дизайн-проектирование</a></li>
-                <li><a href="construction-works.shtml">Строительно-отделочные работы</a></li>
+                <li><a href="{{ "about-studio.liguid"  | asset_url }}">О студии</a></li>
+                <li><a href="{{ "architecture-index.liquid" | asset_url }}">Архитектурное проектирование</a></li>
+                <li><a href="{{ "design-index.liquid" | asset_url }}" >Дизайн-проектирование</a></li>
+                <li><a href="{{ "construction-works.liquid" | asset_url }}" >Строительно-отделочные работы</a></li>
 
-                <li><a href="contact.shtml">Контактная информация</a></li>
+                <li><a href="{{ "contact.liquid" | asset_url }}">Контактная информация</a></li>
             </ul>
         </div>
 
