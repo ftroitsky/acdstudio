@@ -1,0 +1,48 @@
+{% block title %}
+ФОТОСТУДИЯ MONOCHROME LOFT
+{% endblock %}
+
+{% block content %}
+<div id="container">
+    <header>
+        <!--#include file="super-menu.html" -->
+    </header>
+    <div id="main" role="main">
+        <div class="dlblock">
+            <div id="lab" >
+                <h1>ФОТОСТУДИЯ<br />MONOCHROME LOFT</h1>
+                <p><span class="adress">Малая Морская, 15/7, Санкт-Петербург. </span><span class="state">Проект и реализация</span>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "monochrome_loft/crop_main_940w.jpg" | asset_url }}" width="940" height="635" /></div>
+        </div>
+        <div class="dlblock" style="width:940px;">
+            <div class="lblock" style="width:100%; display:block"><div class="lblock" style="width:75%; ">
+                <blockquote>Работа над Monochrome Loft идет полным ходом, и пока самая светлая в Петербурге студия, а вместе с ней и строители, купаются в пыли, настало время рассказать немного об одной из главных особенностей проекта - интерьере.
+                    250 квадратных метров, три студии, chill-out, душ, администраторская и многое другое - все это сейчас находится под чутким присмотром Архитектурно-строительной дизайн студии АСД (www.acdstudio.ru), благодаря которой MCHL сможет похвастаться белыми кирпичными стенами, настоящим деревянным полом, семнадцатью окнами, высотой 2,5 метра... <a href="" style=" background:#000; margin-left:auto;">LJ Monochrome Loft &rarr;</a></blockquote>
+            </div></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "monochrome_loft/crop1-1_280x420.jpg" | asset_url }}" width="420" height="280" /></div>
+            <div class="lblock"><img src="{{ "monochrome_loft/crop1-2_280x420.jpg" | asset_url }}" width="420" height="280" /></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "monochrome_loft/crop2-1_240x360.jpg" | asset_url }}" width="360" height="240" /></div>
+            <div class="lblock"><img src="{{ "monochrome_loft/crop2-2_240x360.jpg" | asset_url }}" width="352" height="240" /></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "monochrome_loft/crop2-3_240x360.jpg" | asset_url }}" width="360" height="240" /></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><iframe src="http://player.vimeo.com/video/9517406?byline=0&amp;portrait=0" width="427" height="240" frameborder="0"></iframe></div>
+        </div>
+        <img src="{{ "monochrome_loft/mono_bg.jpg" | asset_url }}" class="fullscreen2" />
+    </div>    <footer>
+    <!--#include file="footer.html" -->
+</footer>
+</div> <!--! end of #container -->
+{% endblock %}
