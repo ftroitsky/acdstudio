@@ -1,5 +1,31 @@
+{% block title %}
+АСД студия — Архитектурное проектирование, дизайн–проектирование, и отделочные работы «под ключ»
+{% endblock %}
 {% block content %}
-		<h1>Hello!</h1>
-	<p>An empty, simple boilerplate for a fresh start.</p>     
-	<!-- TODO: Create my project :-) -->
+<div id="container">
+    <div id="main" role="main">
+        <div id="logo"><img src="{{ "img/logo.gif" | asset_url }}" width="195" height="30"></div>
+        <div id="menu-btn">
+            <a id="menu-btn-self" href="#">МЕНЮ</a>
+        </div>
+        <div id="menu-menu">
+            <ul class="clearfix">
+                <li><a href="about-studio.shtml">О студии</a></li>
+                <li><a href="architecture/architecture-index.shtml">Архитектурное проектирование</a></li>
+                <li><a href="design/design-index.shtml">Дизайн-проектирование</a></li>
+                <li><a href="construction-works.shtml">Строительно-отделочные работы</a></li>
+
+                <li><a href="contact.shtml">Контактная информация</a></li>
+            </ul>
+        </div>
+
+        <div id="tree"><img src="{{ "img/main3.gif" | asset_url }}" width="638" height="472"></div>
+    </div>
+
+    <footer>
+        <!--#include file="footer.shtml" -->
+    </footer>
+</div>
+<!--! end of #container -->
+
 {% endblock %}
