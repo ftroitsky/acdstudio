@@ -1,0 +1,119 @@
+{% block title %}
+АСД студия — работы, дизайн–проектирование
+{% endblock %}
+
+{% block content %}
+<div  class="clearfix">
+    <header>
+        <!--#include file="super-menu.html" -->
+    </header>
+    <div id="main" role="main">
+        <h1>Дизайн ПРОЕКТИРОВАНИЕ</h1>
+        <ul id="portfolio-filter">
+            <li><a href="#all">Все</a></li>
+            <li><a rel="Реконструкция" href="#reconstruction">Реконструкция</a></li>
+            <li><a rel="Частный интерьер" href="#pvt-interior">Частный интерьер</a></li>
+            <li><a rel="Общественный интерьер" href="#pub-interior">Общественный интерьер</a></li>
+        </ul>
+
+
+        <div id="index-menu">
+
+            <ul id="portfolio-list">
+                <li class="pvt-interior">
+                    <div class="proj-label"><a href="viazovaja2.shtml">ЧАСТНЫЙ ИНТЕРЬЕР, ВЯЗОВАЯ УЛ.</a></div>
+                    <div class="proj-img"><a href="viazovaja2.shtml"><img src="{{ "viazovaja2.jpg" | asset_url }}" width="300" height="200"></a>  </div>
+                </li>
+                <li class="pvt-interior">
+                    <div class="proj-label"><a href="viazovaja.shtml">ЧАСТНЫЙ ИНТЕРЬЕР НА КРЕСТОВСКОМ ОСТРОВЕ — 2</a></div>
+                    <div class="proj-img"><a href="viazovaja.shtml"><img src="{{ "viazovaja.jpg" | asset_url }}" width="300" height="200"></a>  </div>
+                </li>
+                <li class="pvt-interior"><div class="proj-label"><a href="krestovskij.shtml">ЧАСТНЫЙ ИНТЕРЬЕР
+                    НА КРЕСТОВСКОМ ОСТРОВЕ</a></div>
+                    <div class="proj-img"><a href="krestovskij.shtml"><img src="{{ "thumbs/1.jpg" | asset_url }}" width="300" height="200"></a>  </div>
+                </li>
+                <li class="pub-interior"><div class="proj-label"><a href="monochrome_loft.shtml">ФОТОСТУДИЯ MONOCHROME LOFT</a></div>
+                    <div class="proj-img"><a href="monochrome_loft.shtml"><img src="{{ "thumbs/mchl.jpg" | asset_url }}" width="300" height="200"> </a>  </div>
+                </li>
+
+                <li class="pub-interior reconstruction"><div class="proj-label"> <a href="arte-nova.shtml">салон керамики arte-nova</a> </div>
+                    <div class="proj-img"> <a href="arte-nova.shtml"><img src="{{ "thumbs/arte.jpg" | asset_url }}" width="300" height="200"></a> </div>
+                </li>
+                <li class="pub-interior"><div class="proj-label"><a href="ss.shtml">&laquo;S&S&raquo; / ШОУ-РУМ</a></div>
+                    <div class="proj-img"><a href="ss.shtml"> <img src="{{ "thumbs/2.jpg" | asset_url }}" width="300" height="200"></a> </div>
+                </li>
+                <li class="pvt-interior"><div class="proj-label"><a href="pvt_interior_2.shtml">ЧАСТНЫЙ ИНТЕРЬЕР (Ж.К. «ГОРОД СОЛНЦА»)</a></div>
+                    <div class="proj-img"><a href="pvt_interior_2.shtml"> <img src="{{ "thumbs/ozer.jpg" | asset_url }}" width="300" height="200"> </a></div>
+                </li>
+                <li class="pub-interior"><div class="proj-label"><a href="spa_repino.shtml">Спа-Отель / интерьеры</a></div>
+                    <div class="proj-img"><a href="spa_repino.shtml"><img src="{{ "sparepino.jpg" | asset_url }}" width="300" height="200"></a>  </div>
+                </li>
+                <li class="pub-interior"><div class="proj-label"><a href="bulthaup.shtml">Галерея Дизайна /
+                    Bulthaup <br>
+                    и САЛОН LIGNE ROSET</a></div>
+                    <div class="proj-img"><a href="bulthaup.shtml"><img src="{{ "bulthaup.jpg" | asset_url }}"width="300" height="200"></a>  </div>
+                </li>
+
+                <li class="pub-interior"><div class="proj-label"><a href="besana.shtml">монобрендовый шоурум BESANA</a> </div>
+                    <div class="proj-img"><a href="besana.shtml"><img src="{{ "thumbs/besa.jpg" | asset_url }}" width="300" height="200"> </a> </div>
+                </li>
+                <li class="pub-interior"><div class="proj-label"><a href="acd_jam.shtml">Офис АСД студии, и кафе &laquo;Джем&raquo;</a></div>
+                    <div class="proj-img"><a href="acd_jam.shtml"><img src="{{ "thumbs/acd.jpg" | asset_url }}" width="300" height="200"> </a> </div>
+                </li>
+                <li class="pub-interior"><div class="proj-label"><a href="brl.shtml">Офис		    Baltic Reefer Lines</a></div>
+                    <div class="proj-img"> <a href="brl.shtml"><img src="{{ "thumbs/viaz.jpg" | asset_url }}" width="300" height="200"></a> </div>
+                </li>
+                <li class="pub-interior"><div class="proj-label"><a href="broadway.shtml">Салон красоты
+                    &laquo;Бродвей-Дизайн&raquo;</a></div>
+                    <div class="proj-img"><a href="broadway.shtml"><img src="{{ "thumbs/broadway.jpg" | asset_url }}" width="300" height="200"> </a> </div>
+                </li>
+                <li class="pub-interior reconstruction"><div class="proj-label"><a href="okt.shtml">ГОСТИНИЦА ОКТЯБРЬСКАЯ
+                    ПРОЕКТ РЕКОНСТРУКЦИИ
+                    ПОМЕЩЕНИЙ</a></div>
+                    <div class="proj-img"> <a href="okt.shtml"><img src="{{ "thumbs/okt.jpg" | asset_url }}" width="300" height="200"></a>  </div>
+                </li>
+
+
+                <li class="pvt-interior"><div class="proj-label"><a href="pvt_interior_1.shtml">ЧАСТНЫЙ ИНТЕРЬЕР
+                    НА ВИЛЕНСКОМ ПЕРЕУЛКЕ</a></div>
+                    <div class="proj-img"><a href="pvt_interior_1.shtml"><img src="{{ "thumbs/vil.jpg" | asset_url }}" width="300" height="200"> </a> </div>
+                </li>
+
+                <li class="pub-interior reconstruction"><div class="proj-label"><a href="masterskaya_gerasimov.shtml">АРХИТЕКТУРНАЯ МАСТЕРСКАЯ</a></div>
+                    <div class="proj-img"><a href="masterskaya_gerasimov.shtml"><img src="{{ "thumbs/ger.jpg" | asset_url }}" width="300" height="200"></a>  </div>
+                </li>
+
+                <li class="pub-interior"><div class="proj-label"><a href="sunbunker.shtml">СТУДИЯ ЗАГАРА
+                    «СОЛНЕЧНЫЙ БУНКЕР»</a></div>
+                    <div class="proj-img"><a href="sunbunker.shtml"><img src="{{ "bunker.jpg" | asset_url }}" width="300" height="200"></a>  </div>
+                </li>
+                <li class="pub-interior"><div class="proj-label"><a href="vtb.shtml">Реконструкция помещений &laquo;ВТБ Северо-Запад&raquo;</a></div>
+                    <div class="proj-img"><a href="vtb.shtml"><img src="{{ "thumbs/vtb.jpg" | asset_url }}" width="300" height="200"></a>  </div>
+                </li>
+                <li class="pvt-interior"><div class="proj-label"><a href="interiors.shtml">ИЗБРАННЫЕ проекты ИНТЕРЬЕРов</a></div>
+                    <div class="proj-img"> <a href="interiors.shtml"><img src="{{ "thumbs/pvt1.jpg" | asset_url }}" width="300" height="200"></a> </div>
+                </li>
+
+
+                <li class="pub-interior"><div class="proj-label"><a href="rice.shtml">РЕСТОРАН ЯПОНСКОЙ
+                    КУХНИ «РИС»</a></div>
+                    <div class="proj-img"><a href="rice.shtml"><img src="{{ "thumbs/ris.jpg" | asset_url }}" width="300" height="200"></a>  </div>
+                </li>
+
+                <li class="pub-interior"><div class="proj-label"><a href="golden_dolls.shtml">ночной клуб     Golden dolls</a></div>
+                    <div class="proj-img"><a href="golden_dolls.shtml"><img src="{{ "thumbs/dolls.jpg" | asset_url }}" width="300" height="200"> </a> </div>
+                </li>
+
+
+
+            </ul>
+
+
+        </div>
+
+
+    </div>    <footer>
+    <!--#include file="footer.html" -->
+</footer>
+</div> <!--! end of #container -->
+{% endblock %}
