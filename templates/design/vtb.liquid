@@ -1,0 +1,30 @@
+{% block title %}
+Реконструкция помещений &laquo;ВТБ Северо-Запад&raquo;
+{% endblock %}
+
+{% block content %}
+<div id="container" >    <header>
+    <!--#include file="super-menu.html" -->
+</header>
+    <div id="main" role="main">
+        <div class="dlblock">
+            <div id="lab">
+                <h1>Реконструкция помещений <br>
+                    &laquo;ВТБ Северо-Запад&raquo;</h1>
+                <p><span class="adress">Санкт-Петербург. </span><span class="state">Фор-эскиз</span>
+                </p>
+                <span>Над проектом работали:</span>
+                <ul>
+                    <li>Николай Лим</li>
+                    <li>Александра Викторова</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="lblock"><img src="{{ "vtb/crop1-1_320x420.jpg" | asset_url }}" width="420" height="320" /></div>
+        <div class="lblock"><img src="{{ "vtb/crop1-2_320x420.jpg" | asset_url }}" width="420" height="320" /></div>
+    </div>    <footer>
+        <!--#include file="footer.html" -->
+    </footer>
+</div> <!--! end of #container -->
+{% endblock %}
