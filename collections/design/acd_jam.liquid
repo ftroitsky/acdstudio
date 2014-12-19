@@ -1,8 +1,16 @@
-{% block title %}
-Офис АСД студии и кафе «Джем»
-{% endblock %}
+---
+title: "Офис АСД студии и кафе «Джем»"
+date: 2013-06-13 00:00
+published: true
+thumbnail: "thumbs/acd.jpg"
+tags:
+- pub-interior
+---
 
-{% block content %}
+{{ "paris.css" | asset_url | stylesheet_tag }}
+{{ "black.css" | asset_url | stylesheet_tag }}
+
+
 <div id="container">    <header>
     <!--#include file="super-menu.html" -->
 </header>
@@ -39,4 +47,3 @@
 </div> <!--! end of #container -->
 
 </div>
-{% endblock %}

@@ -1,0 +1,22 @@
+{% block title %}Архитектурное проектирование{% endblock %}
+
+
+
+{% block content %}
+<div id="main" role="main">
+    <h1>Дизайн ПРОЕКТИРОВАНИЕ</h1>
+    <ul id="portfolio-filter">
+        <li><a href="#all">Все</a></li>
+        <li><a rel="Реконструкция" href="#reconstruction">Реконструкция</a></li>
+        <li><a rel="Частный интерьер" href="#pvt-interior">Частный интерьер</a></li>
+        <li><a rel="Общественный интерьер" href="#pub-interior">Общественный интерьер</a></li>
+    </ul>
+    <div id="index-menu">
+    <ul id="portfolio-list">
+        {% collection "design" order desc %}
+                {% include "articles/article" with collection.items %}
+        {% endcollection %}
+        </ul>
+    </div>
+</div>
+{% endblock %}
