@@ -1,8 +1,14 @@
-{% block title %}
-First Baku International Architecture Award 2013
-{% endblock %}
+---
+title: "First Baku International Architecture Award 2013"
+date: 2013-06-13 00:00
+published: true
+thumbnail: "thumbs/baku.jpg"
+tags:
+- International-competition
+---
 
-{% block content %}
+{{ "white.css" | asset_url | stylesheet_tag }}
+
 <div id="container">
     <header>
         <!--#include file="super-menu.html" -->
@@ -67,4 +73,3 @@ First Baku International Architecture Award 2013
         <!--#include file="footer.html" -->
     </footer>
 </div>
-{% endblock %}

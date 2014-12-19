@@ -1,0 +1,40 @@
+
+.bond-hover, .bond-touchmargin, .bond-touchcss {
+	height: 240px;
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	
+}
+
+
+
+.bond-wrapper {
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 0s;
+	-webkit-transition-timing-function: cubic-bezier(0,1,1,1);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.bond-wrapper a {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	border: none;
+}
+.bond-box {
+	width: 9999px;
+}
+.bond-box .float-block {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.bond-slide {
+	float: left;
+	margin: 0px;
+	margin-right:10px;
+
+}

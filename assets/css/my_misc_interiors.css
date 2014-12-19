@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * Primary styles
+ *
+ * Author: 
+ */
+
+
+body, h1, h2, p, blockquote {color:#fff;}
+blockquote {color:#F33; font-size:120%;}
+	
+
+#lab {
+	color: #222;
+	background-color:#D7DF23;
+	}
+
+
+	
+#lab h1 {
+	color: #222;
+	}
+#lab p {color:#222;}
+
+
+h2 {font-size:140%; text-transform:uppercase; display:inline-block; padding:2px 4px; background-color:#D7DF23; color:#222; margin-top:2em;}
