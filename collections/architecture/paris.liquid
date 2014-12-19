@@ -1,8 +1,15 @@
-{% block title %}
-CENTRE SPIRITUEL ET CULTUREL ORTHODOXE RUSSE
-{% endblock %}
+---
+title: "CENTRE SPIRITUEL ET CULTUREL ORTHODOXE RUSSE"
+date: 2013-06-13 00:00
+published: true
+thumbnail: "thumbs/paris.jpg"
+tags:
+- International-competition
+---
 
-{% block content %}
+{{ "paris.css" | asset_url | stylesheet_tag }}
+{{ "black.css" | asset_url | stylesheet_tag }}
+
 <div id="container" >
     <header>
         <!--#include file="super-menu.html" -->
@@ -11,15 +18,14 @@ CENTRE SPIRITUEL ET CULTUREL ORTHODOXE RUSSE
     <div id="main" role="main">
         <div class="lblock">
             <div id="lab">
-                <h1>CENTRE SPIRITUEL ET CULTUREL<br>
-                    ORTHODOXE RUSSE</h1>
+                <h1>{{collection}}</h1>
                 <h2>ACD studio / Vega<br>
                     en collaboration avec <br>
                     AUA Paul CHEMETOV</h2>
                 <p><span class="adress">2 Avenue Rapp, Paris, France.</span><span class="state">international competition</span><span class="state state2">competition finale</span>
                 </p>
                 <span>People on project (<strong>ACD studio / Vega</strong>):</span>
-                <ul >
+                <ul>
                     <li>Nikolai Lim</li>
                     <li>Elena Sharova</li>
                     <li>Danil Ovcharenko</li>
@@ -103,4 +109,4 @@ CENTRE SPIRITUEL ET CULTUREL ORTHODOXE RUSSE
         <!--#include file="footer.html" -->
     </footer>
 </div> <!--! end of #container -->
-{% endblock %}
+

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * Primary styles
+ *
+ * Author: 
+ */
+
+
+
+
+#lab {
+	border:none;
+	color: #FFF;
+	background-color:#9A1834;
+	}
+	
+	
+	body, h1, p, blockquote {color:#fff;}
+	body {background:#000;}
+	blockquote {color:#fff; font-size:120%;}
+	
+
+

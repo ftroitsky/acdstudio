@@ -2,23 +2,28 @@
 <html lang="en">
     <head>
         <!-- Title block allowing child pages to override -->
-        <title>{% block title %}Hello{% endblock %}</title>
+        <title>{% block title %}АСД студия — Архитектурное проектирование, дизайн–проектирование, и отделочные работы «под ключ»{% endblock %}</title>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
         <!-- Styles -->
-        {{ "app.css" | asset_url | stylesheet_tag }}
+        {{ "style.css" | asset_url | stylesheet_tag }}
+        {{ "typography.css" | asset_url | stylesheet_tag }}
+        {{ "h-bond.css" | asset_url | stylesheet_tag }}
         <!-- Style block allowing child pages to inject their own styles -->
+
         {% block styles %}{% endblock %}
     </head>
-    <body>
-        <div id="wrapper">
+    <body id="index">
             <!-- Include -->
 
             {% include "header" %}
             <!-- Content block, child page inject content -->
             {% block content %}{% endblock %}
-        </div>
         <!-- Script block allowing child pages to inject their own scripts -->
-        {% block scripts %}{% endblock %}
+        {{ "jquery-1.5.1.js" | asset_url | script_tag }}
         {{ "app.js" | asset_url | script_tag }}
+        {{ "plugins.js" | asset_url | script_tag }}
+        {{ "bond.min.js" | asset_url | script_tag }}
+        {{ "script.js" | asset_url | script_tag }}
+        {% block scripts %}{% endblock %}
     </body>
 </html>
