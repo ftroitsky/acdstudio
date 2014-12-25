@@ -1,0 +1,44 @@
+---
+title: "АРХИТЕКТУРНАЯ МАСТЕРСКАЯ"
+date: 2013-06-13 00:00
+published: true
+thumbnail: "thumbs/arhitecturnaya_masterskaya.jpg"
+tags:
+- pub-interior
+---
+
+{{ "my_bult.css" | asset_url | stylesheet_tag }}
+
+<div id="container">    <header>
+    <!--#include file="super-menu.html" -->
+</header>
+    <div id="main" role="main">
+
+
+        <div class="dlblock">       <div id="lab">
+            <h1>АРХИТЕКТУРНАЯ <br>
+                МАСТЕРСКАЯ</h1>
+            <p><span class="adress">Санкт-Петербург. </span><span class="state">Проект и реализация</span>
+            </p>
+
+
+        </div>
+
+        </div>
+        <div class="lblock"><img src="{{ "gerasimov/crop_main_940w.jpg" | asset_url }}" width="940" height="627" /></div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "gerasimov/crop2-1_320x480.jpg" | asset_url }}" width="480" height="320" /></div>
+            <div class="lblock"><img src="{{ "gerasimov/crop2-2_320x210.jpg" | asset_url }}" width="210" height="320" /></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "gerasimov/crop3-2_240x158.jpg" | asset_url }}" width="158" height="240" /></div>
+            <div class="lblock"><img src="{{ "gerasimov/crop3-1_240x360.jpg" | asset_url }}" width="360" height="240" /></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "gerasimov/crop4-1_240x158.jpg" | asset_url }}" width="158" height="240" /></div>
+            <div class="lblock"><img src="{{ "gerasimov/crop4-2_240x158.jpg" | asset_url }}" width="158" height="240" /></div>
+        </div>
+    </div>    <footer>
+        <!--#include file="footer.html" -->
+    </footer>
+</div>
