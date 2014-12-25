@@ -20,7 +20,6 @@
             {% block content %}{% endblock %}
         <!-- Script block allowing child pages to inject their own scripts -->
         {{ "jquery-1.5.1.js" | asset_url | script_tag }}
-        {{ "app.js" | asset_url | script_tag }}
         {{ "plugins.js" | asset_url | script_tag }}
         {{ "bond.min.js" | asset_url | script_tag }}
         {{ "script.js" | asset_url | script_tag }}
