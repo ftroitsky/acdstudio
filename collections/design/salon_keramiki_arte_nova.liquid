@@ -1,0 +1,57 @@
+---
+title: "Салон керамики Arte-nova"
+date: 2013-06-13 00:00
+published: true
+thumbnail: "thumbs/salon_keramiki_arte_nova.jpg"
+tags:
+- pub-interior
+---
+
+{{ "my_bult.css" | asset_url | stylesheet_tag }}
+
+<div id="container">    <header>
+    <!--#include file="super-menu.html" -->
+</header>
+
+    <div id="main" role="main">
+
+        <div class="dlblock">
+            <div id="lab" >
+                <h1>{{collection}}</h1>
+                <h2>Салон керамики<br>
+                    Arte-nova</h2>
+                <p><span class="adress">Большой пр. П.С., Санкт-Петербург. </span><span class="state">Проект и реализация</span>
+                </p>
+                <p><span>Архитектор:</span> <span class="acd-name">Николай Лим</span></p>
+
+                <span>Строительная группа:</span>
+                <ul>
+                    <li>Вячеслав Иванов</li>
+                    <li>Виктор Наумов </li>
+                    <li>Александр Каленчук</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "arte-nova/crop1_2_320.jpg" | asset_url }}" width="377" height="320" /></div>
+            <div class="lblock"><img src="{{ "arte-nova/crop1_1_320.jpg" | asset_url }}" width="380" height="320" /></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "arte-nova/crop2_1_240.jpg" | asset_url }}" width="320" height="240" /></div>
+            <div class="lblock"><img src="{{ "arte-nova/crop2_2_240.jpg" | asset_url }}" width="250" height="240" /></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "arte-nova/crop3_1_200.jpg" | asset_url }}" width="150" height="200" /></div>
+            <div class="lblock"><img src="{{ "arte-nova/crop3_2_200.jpg" | asset_url }}" width="166" height="200" /></div>
+            <div class="lblock"><img src="{{ "arte-nova/crop3_3_200.jpg" | asset_url }}" width="237" height="200" /></div>
+        </div>
+        <div class="dlblock">
+            <div class="lblock"><img src="{{ "arte-nova/crop4_1_280.jpg" | asset_url }}" width="212" height="280" /></div>
+            <div class="lblock" style="width:200px;">Рабочий процесс</div>
+        </div>
+    </div>    <footer>
+        <!--#include file="footer.html" -->
+    </footer>
+</div>
