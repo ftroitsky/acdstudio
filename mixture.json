@@ -1,6 +1,6 @@
 {
   "convertHtml": {
-    "relativePaths": false
+    "relativePaths": true
   },
   "debug": false,
   "domain": null,
@@ -26,6 +26,11 @@
     {
       "redirect": null,
       "route": "architecture/:url",
+      "template": null
+    },
+    {
+      "redirect": null,
+      "route": "design/:url",
       "template": null
     }
   ]
