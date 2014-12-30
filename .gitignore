@@ -2,3 +2,5 @@ converted-html
 .idea
 *.min.*
 collections/.cache
+collections/.cache/processed.json
+collections/.cache/processed.json
