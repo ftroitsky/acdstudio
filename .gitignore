@@ -3,4 +3,4 @@ converted-html
 *.min.*
 collections/.cache
 collections/.cache/processed.json
-collections/.cache/processed.json
+.ftpsettings
