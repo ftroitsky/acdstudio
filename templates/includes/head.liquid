@@ -1,15 +1,14 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
+    <!-- Title block allowing child pages to override -->
     <title>
-        {% if post.title %}
+    {% if post.title %}
         {{ post.title }}
-        {% else %}
+    {% else %}
         {% block title %}АСД студия — Архитектурное проектирование, дизайн–проектирование, и отделочные работы «под ключ»{% endblock %}
-        {% endif %}
+    {% endif %}
     </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 
     {{ "style.css" | asset_url | stylesheet_tag }}
@@ -22,11 +21,3 @@
     {% endif %}
 
 </head>
-
-<body id="index">
-
-{% include "header" %}
-{% block content %}{% endblock %}
-{% include "footer" %}
-
-{% include "scripts" %}

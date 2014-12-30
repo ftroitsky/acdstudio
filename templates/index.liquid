@@ -1,3 +1,4 @@
+{% layout "index"%}
 {% block title %}
 АСД студия — Архитектурное проектирование, дизайн–проектирование, и отделочные работы «под ключ»
 {% endblock %}
@@ -5,27 +6,23 @@
 <div id="container">
     <div id="main" role="main">
         <div id="logo"><img src="{{ "img/logo.gif" | asset_url }}" width="195" height="30"></div>
-        <!--<div id="menu-btn">-->
-            <!--<a id="menu-btn-self" href="#">МЕНЮ</a>-->
-        <!--</div>-->
-        <!--<div id="menu-menu">-->
-            <!--<ul class="clearfix">-->
-                <!--<li><a href="about-studio">О студии</a></li>-->
-                <!--<li><a href="architecture/architecture-index">Архитектурное проектирование</a></li>-->
-                <!--<li><a href="design/design-index" >Дизайн-проектирование</a></li>-->
-                <!--<li><a href="construction-works" >Строительно-отделочные работы</a></li>-->
+        <div id="menu-btn">
+            <a id="menu-btn-self" href="#">МЕНЮ</a>
+        </div>
+        <div id="menu-menu">
+            <ul class="clearfix">
+                <li><a href="/about-studio">О студии</a></li>
+                <li><a href="/architecture">Архитектурное проектирование</a></li>
+                <li><a href="/design">Дизайн-проектирование</a></li>
+                <li><a href="/construction-works">Строительно-отделочные работы</a></li>
 
-                <!--<li><a href="contact">Контактная информация</a></li>-->
-            <!--</ul>-->
-        <!--</div>-->
+                <li><a href="/contact">Контактная информация</a></li>
+            </ul>
+        </div>
 
         <div id="tree"><img src="{{ "img/main3.gif" | asset_url }}" width="638" height="472"></div>
     </div>
 
-    <footer>
-        <!--#include file="footer.shtml" -->
-    </footer>
-</div>
-<!--! end of #container -->
 
+</div>
 {% endblock %}
