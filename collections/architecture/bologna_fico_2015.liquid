@@ -11,32 +11,61 @@ tags:
 - competition
 id: "monochrome-loft"
 ---
+{{ "white.css" | asset_url | stylesheet_tag }}
 
-<div id="container" >    <header>
-    <!--#include file="super-menu.html" -->
-</header>
+<div id="container">
+
+    <header>
+        <!--#include file="super-menu.html" -->
+        <div style="position:absolute;	z-index:1; padding-top:6em;">
+            <div class="lblock" style="padding-left:40px;">
+                <div id="lab" style="background-color: rgba(190, 255, 253, 0.05); border: none">
+                    <h1>Food&wellness club</h1>
+                    <p><span class="adress">Bologna, Italy</span><span class="state">international competition</span><span class="state state2">honorable mention</span>
+                    </p>
+                    <span class="bgstring">People on project:</span>
+                    <ul>
+                        <li>Iaroslava Nesterenko</li>
+                        <li>Dmitriy Vodovatov </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <img src="{{ "bologna_fico_2015_01.jpg"| asset_url }}"
+             class="fullscreen">
+
+    </header>
     <div id="main" role="main">
-        <div class="dlblock">
-            <div id="lab">
-                <h1>FOOD & WELLNESS CLUB</h1>
-                <p>
-                    <span class="adress">Bologna, Italy</span>
-                    <span class="state">international competition</span>
-                </p>
-                <span>People on project:</span>
-                <ul>
-                    <li>Iaroslava Nesterenko</li>
-                    <li>DMITRY VODOVATOV</li>
-                </ul>
+        <div class="dlblock" style="margin-bottom:7em;">
+            <div class="bond-touchmargin" style="height:500px;">
+                <div class="bond-wrapper">
+                    <div class="bond-box">
+                        <div class="bond-slide"><img src="{{ "bologna_fico_2015_05.jpg" | asset_url }}" width="910" height="500"></div>
+                        <div class="bond-slide"><img src="{{ "bologna_fico_2015_06.jpg" | asset_url }}" width="707" height="500"></div>
+                        <div class="bond-slide"><img src="{{ "bologna_fico_2015_07.jpg"| asset_url }}" width="707" height="500"></div>
+                        <div class="bond-slide"><img src="{{ "bologna_fico_2015_09.jpg" | asset_url }}" width="846" height="500"></div>
+                        <div class="bond-slide"><img src="{{ "bologna_fico_2015_10.jpg" | asset_url }}" width="865" height="500"></div>
+                        <div class="bond-slide"><img src="{{ "bologna_fico_2015_08.jpg" | asset_url }}" width="1073" height="500"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dlblock" style="margin-bottom:7em;">
+            <div class="bond-touchmargin" style="height:500px;">
+                <div class="bond-wrapper">
+                    <div class="bond-box">
+                        <div class="bond-slide"><img src="{{ "bologna_fico_2015_02.jpg" | asset_url }}" width="910" height="500"></div>
+                        <div class="bond-slide"><img src="{{ "bologna_fico_2015_03.jpg" | asset_url }}" width="910" height="500"></div>
+                        <div class="bond-slide"><img src="{{ "bologna_fico_2015_04.jpg" | asset_url }}" width="910" height="500"></div>
+                    </div>
+                </div>
             </div>
         </div>
 
-
-        <div class="dlblock" style="margin-bottom:2em"><img src="{{ "bologna_fico_2015_01.jpg" | asset_url }}" class="fullscreen" ></div>
-        <div class="dlblock" style="margin-bottom:2em"><img src="{{ "bologna_fico_2015_02.jpg" | asset_url }}" class="fullscreen" ></div>
-        <div class="dlblock" style="margin-bottom:2em"><img src="{{ "bologna_fico_2015_03.jpg" | asset_url }}" class="fullscreen" ></div>
-        <div class="dlblock" style="margin-bottom:2em"><img src="{{ "bologna_fico_2015_04.jpg" | asset_url }}" class="fullscreen" ></div>
     </div>
+    <!-- End of Main -->
     <footer>
         <!--#include file="footer.html" -->
     </footer>
