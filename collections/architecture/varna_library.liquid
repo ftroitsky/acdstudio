@@ -1,0 +1,77 @@
+---
+title: "varna library"
+date: 2015-11-23 00:00
+published: true
+layout: architecture
+thumbnail: "thumbs/varna_library.jpg"
+styles:
+- "black.css"
+- "paris.css"
+tags:
+- competition
+id: "monochrome-loft"
+---
+{{ "black.css" | asset_url | stylesheet_tag }}
+
+<div id="container">
+
+    <header>
+        <!--#include file="super-menu.html" -->
+        <div style="position:absolute;	z-index:1; padding-top:6em;">
+            <div class="lblock" style="padding-left:40px;">
+                <div id="lab" style="background-color: rgba(190, 255, 253, 0.0); border: none">
+                    <h1>varna library</h1>
+                    <p><span class="adress">Varna, Bolgaria</span><span class="state">international competition</span>
+                    </p>
+                    <span class="bgstring">People on project:</span>
+                    <ul>
+                        <li>NIKOLAI LIM</li>
+                        <li>DMITRI VODOVATOV </li>
+                        <li>NATALIA RED'KINA</li>
+                        <li>DIANA GAZIZOVA</li>
+                        <li>IAROSLAVA NESTERENKO</li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="dlblock" style="margin-bottom:1em;">
+        <img src="{{ "varna_library_01.jpg"| asset_url }}"
+             class="fullscreen">
+
+    </header>
+    <div id="main" role="main">
+        <div class="dlblock" style="margin-bottom:1em;">
+            <div class="bond-touchmargin" style="height:400px;">
+                <div class="bond-wrapper">
+                    <div class="bond-box">
+                        <div class="bond-slide"><img src="{{ "varna_library_02.jpg" | asset_url }}" width="534" height="400"></div>
+                        <div class="bond-slide"><img src="{{ "varna_library_03.jpg" | asset_url }}" width="400" height="400"></div>
+                        <div class="bond-slide"><img src="{{ "varna_library_04.jpg"| asset_url }}" width="600" height="400"></div>
+                        <div class="bond-slide"><img src="{{ "varna_library_05.jpg" | asset_url }}" width="400" height="400"></div>
+                        <div class="bond-slide"><img src="{{ "varna_library_06.jpg" | asset_url }}" width="600" height="400"></div>
+                        <div class="bond-slide"><img src="{{ "varna_library_07.jpg" | asset_url }}" width="2035" height="400"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dlblock" style="margin-bottom:1em;">
+            <div class="bond-touchmargin" style="height:500px;">
+                <div class="bond-wrapper">
+                    <div class="bond-box">
+                        <div class="bond-slide"><img src="{{ "varna_library_08.jpg" | asset_url }}" width="592" height="400"></div>
+                        <div class="bond-slide"><img src="{{ "varna_library_10.jpg" | asset_url }}" width="910" height="400"></div>
+                        <div class="bond-slide"><img src="{{ "varna_library_09.jpg" | asset_url }}" width="2295" height="400"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End of Main -->
+    <footer>
+        <!--#include file="footer.html" -->
+    </footer>
+</div>
