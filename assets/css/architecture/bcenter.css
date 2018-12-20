@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * Primary styles
+ *
+ * Author: 
+ */
+
+
+
+
+
+#main {
+	margin-left:40px;
+	margin-top:2em;
+
+	}
+
+
+.lblock {
+	display: block;
+float: left;
+margin-right: 10px;
+margin-bottom: 20px;
+border: 0;
+position: relative;
+	}	
+	
+	.zeroblock{
+			display: block;
+float: left;
+border: 0;
+padding-right:10px;
+position: relative;
+	}
+	
+		.dlblock {
+	display: block;
+float: left;
+border: 0;
+position: relative;
+width:100%;
+	}	
+	
+	.lblock img {margin:0px; padding:0px;}
+	
+	body, h1, h2, h3, p, blockquote {color:#fff;}
+	body {background:#000;}
+	blockquote {color:#F33; font-size:120%;}
+	
+	.state{color:#0F9; background:#333; display:inline-block; padding:0px 2px;  text-transform:uppercase; margin-left:1em; font-size:110%;}
+	
+
+#sliderss {
+	height:340px;
+	overflow:auto;
+}
+
+.bond-touchmargin{
+	cursor:move;
+}
+
+#lab {
+	border:#FFF 1px solid ;
+	display:inline-block;
+	padding:20px;
+	color: #FFF;
+	margin-bottom:2em;
+	}
+
+	
+#lab h1 {
+	font-size:50px;
+	font-weight:bold;
+	text-transform:uppercase;
+	}
+
+#lab ul{
+	list-style:none;
+	margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+	}
+#lab li, .acd-name{ font-weight:bold; text-transform:uppercase;}
+#lab p{margin-bottom:1em;}
+
+
+h2 {font-size:300%; line-height:95%; }
+
+.gradient2{
+	display:inline-block;
+	width:100%;
+	
+	background: #000; /* for non-css3 browsers */
+}
+
+
+.textfld {width:420px; padding:10px; font-size:120%;}

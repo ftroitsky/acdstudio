@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * Primary styles
+ *
+ * Author: 
+ */
+
+
+
+	body, h1, h2, h3, h4, p, blockquote {color:#fff;}
+	body {background:#000;}
+	blockquote {color:#F33; font-size:120%;}
+	
+	#paris #lab .bgstring{background-color:white; color:#333; }
+
+
+h2 {font-size:300%; line-height:95%; }
+
+#flashcontent { width:100%; height:100%;
+display:block;
+}
+

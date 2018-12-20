@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * Primary styles
+ *
+ * Author: 
+ */
+
+
+
+/* Label */
+
+#lab {
+	border:#ddd 1px solid ;
+	}
+
+
+	#taipei-art #lab, #taipei-art #lab h1, #taipei-art #lab p {
+	color:#e83d61;
+	}
+#pansionat #lab, #pansionat #lab h1, #pansionat #lab p {
+    color:#e83d61;
+}
+#taipei-art #lab{
+	border-color:#e83d61;
+	}
+
+#chapultepec #lab, #chapultepec #lab h1,  #chapultepec #lab .adress  {
+	color:#61c4e3;
+	border: 0;
+}
+
+/* Page */
+
+ul, ol {margin:0; padding-left: 0;}
+body, h1, h2, h3, p, blockquote {color:#333;}
+body {background:#fff;}
+
+h2 {font-size:300%; line-height:95%; }
+
+
+/* Layout */
